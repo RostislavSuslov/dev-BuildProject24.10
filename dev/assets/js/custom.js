@@ -1,3 +1,7 @@
+const headerNav = document.querySelector('.header-nav')
+const burger = document.querySelector('.btn-burger')
+burger.addEventListener('click', () => headerNav.classList.toggle('show'))
+console.log('test')
 const installGenplan = () => {
     const address = document.querySelector('#address')
     const floor = document.querySelector('#floor')
@@ -20,12 +24,3 @@ const installGenplan = () => {
 
 document.querySelector('.genplan') ? installGenplan() : null
 
-const headerNav = document.querySelector('.header-nav')
-const burger = document.querySelector('.btn-burger')
-
-console.log(headerNav);
-
-burger.addEventListener('click', () => {
-    console.log(burger);
-    headerNav.classList.toggle('show')
-})

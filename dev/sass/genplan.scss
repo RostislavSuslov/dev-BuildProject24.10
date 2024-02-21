@@ -4,6 +4,15 @@
     position: relative;
 }
 
+.booking {
+	path {
+		fill: #ff5050;
+		fill-opacity: 0.4;
+		stroke: #f80000;
+		cursor: no-drop;
+	}
+}
+
 .build-path {
     fill: #05FFFF;
     fill-opacity: 0;
@@ -40,7 +49,7 @@
         }
        strong{
         text-decoration: underline;
-         
+
         }
     }
 }

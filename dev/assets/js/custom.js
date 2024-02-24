@@ -39,38 +39,4 @@ const installGenplan = () => {
 	addBooking(builds)
 }
 
-const installFloor = () => {
-    console.log('installFloor');
-}
-
 document.querySelector('.genplan') ? installGenplan() : null
-document.querySelector('.floor-plan') ? installFloor() : null
- 
-
-const obj = [
-    {
-        id: 1,
-        name: "Bill",
-        age: 22,
-    },
-    {
-        id: 2,
-        name: "Bill2",
-        age: 42,
-    },
-    {
-        id: 3,
-        name: "Bill3",
-        age: 23,
-    },
-    {
-        id: 4,
-        name: "Bill4",
-        age: 12,
-    }
-]
-console.log(obj);
-console.table(obj)
-
-
-ct

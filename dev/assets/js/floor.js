@@ -8,9 +8,7 @@ const flatArray = [{
     priceTotal: "52500$",
     flatNumber: 1,
     status: "booking",
-
 },
-
 {
     id: 1,
     house: "2",
@@ -21,8 +19,6 @@ const flatArray = [{
     priceTotal: "42000$",
     flatNumber: 2,
     status: "sold",
-
-
 },
 {
     id: 2,
@@ -34,7 +30,6 @@ const flatArray = [{
     priceTotal: "42000$",
     flatNumber: 3,
     status: "action",
-
 },
 {
     id: 3,
@@ -46,9 +41,7 @@ const flatArray = [{
     priceTotal: "52500$",
     flatNumber: 4,
     status: "booking",
-
 },
-
 {
     id: 4,
     house: "2",
@@ -59,7 +52,6 @@ const flatArray = [{
     priceTotal: "55790$",
     flatNumber: 5,
     status: "booking",
-
 },
 {
     id: 5,
@@ -71,7 +63,6 @@ const flatArray = [{
     priceTotal: "27440$",
     flatNumber: 6,
     status: "free",
-
 },
 {
     id: 6,
@@ -83,8 +74,6 @@ const flatArray = [{
     priceTotal: "29400$",
     flatNumber: 7,
     status: "booking",
-
-
 },
 {
     id: 7,
@@ -96,8 +85,6 @@ const flatArray = [{
     priceTotal: "27440$",
     flatNumber: 8,
     status: "booking",
-
-
 },
 {
     id: 8,
@@ -109,10 +96,9 @@ const flatArray = [{
     priceTotal: "55510$",
     flatNumber: 9,
     status: "action",
-
 },
 ]
- 
+
 
 
 
@@ -133,12 +119,12 @@ window.addEventListener('load', ()=> {
    const installFloor = () => {
         const flats = document.querySelectorAll('.flat')
         const flatInfo = document.querySelector('.floor-info')
-        
+
         const removeActiveClass = ()=> {
             flats.forEach(active => {
                 active.classList.remove('active')
             })
-        } 
+        }
 
         const initialValue = [{
             id: 8,
